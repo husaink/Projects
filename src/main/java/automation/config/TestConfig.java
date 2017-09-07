@@ -21,7 +21,7 @@ public class TestConfig {
     private static TestConfig getInstance() throws Throwable {
         if (testConfig == null) {
             properties = new Properties();
-            requiredEnvironmentName = System.getProperty("env", "dit");
+            requiredEnvironmentName = System.getProperty("env", "uat");
             populateCommonProperties();
             populateEnvProperties(requiredEnvironmentName);
             testConfig = new TestConfig();
