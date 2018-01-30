@@ -10,6 +10,9 @@ public class GoogleSearchResultsPage {
 
 	@FindBy(css = ".g .r")
 	private WebElement firstHitDescriptionText;
+	
+	@FindBy(id="name")
+	private WebElement personName;
 
 	public GoogleSearchResultsPage(WebDriver commonDriver) {
 		driver = commonDriver;
