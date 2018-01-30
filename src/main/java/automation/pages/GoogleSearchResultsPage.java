@@ -10,10 +10,12 @@ public class GoogleSearchResultsPage {
 
 	@FindBy(css = ".g .r")
 	private WebElement firstHitDescriptionText;
+
 	@FindBy(css = ".g .r")
 	private WebElement secHitDescriptionText;
 	@FindBy(css = ".g .r")
 	private WebElement thirdHitDescriptionText;
+
 
 	public GoogleSearchResultsPage(WebDriver commonDriver) {
 		driver = commonDriver;
