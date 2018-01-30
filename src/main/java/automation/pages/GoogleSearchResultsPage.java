@@ -25,4 +25,10 @@ public class GoogleSearchResultsPage {
 	public String firstHitTitle() {
 		return firstHitDescriptionText.getText();
 	}
+	
+	public void setName()
+	{
+		String name = " Hussain" ;
+		
+	}
 }
