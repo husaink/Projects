@@ -29,6 +29,7 @@ public class GoogleSearchResultsPage {
 	public void setName()
 	{
 		String name = " Hussain" ;
+		String surname = "Koser";
 		
 	}
 }
