@@ -30,6 +30,7 @@ public class GoogleSearchResultsPage {
 	{
 		String name = " Hussain" ;
 		String surname = "Koser";
+		String age= "26";
 		
 	}
 }
