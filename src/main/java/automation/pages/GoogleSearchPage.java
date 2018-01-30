@@ -18,6 +18,12 @@ public class GoogleSearchPage {
 
 	@FindBy(name = "btnG")
 	private WebElement searchButton;
+	
+	@FindBy(name = "btnG")
+	private WebElement secsearchButton;
+	
+	@FindBy(name = "btnG")
+	private WebElement thirdsearchButton;
 
 	public GoogleSearchPage(WebDriver commonDriver) {
 		driver = commonDriver;
