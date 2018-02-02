@@ -18,19 +18,10 @@ public class GoogleSearchPage {
 
 	@FindBy(name = "btnG")
 	private WebElement searchButton;
+
+
 	
 
-	@FindBy(name = "btnG")
-	private WebElement secsearchButton;
-	
-	@FindBy(name = "btnG")
-	private WebElement thirdsearchButton;
-	
-	@FindBy(name = "submit")
-	private WebElement submitBtn;
-	
-	@FindBy(name = "clear")
-	private WebElement clearButton;
 
 
 	public GoogleSearchPage(WebDriver commonDriver) {
